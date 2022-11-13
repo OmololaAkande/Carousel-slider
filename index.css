@@ -1,41 +1,57 @@
-*{
-  margin:0px;
- box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-   height: 100vh;
-  min-height:100%; 
-  display:flex;
-  align-items:center;
-  justify-content:center;
-   
-}
-
-
- .container {
-    display: flex;
+body {
+  height: 100vh;
+  min-height: 100%;
+  display: flex;
   align-items: center;
-  justify-content: center; 
-  /* margin: 0 auto;  */
- max-width:800px;  
-} 
-
-.icon-right img{
-  height: 40px; 
-  width: 40px;
+  justify-content: center;
 }
-.icon-left img{height: 40px; width: 40px;}
-/* .image{height:100px; width: 100px;} */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 10px;
+}
+
+/* .mySlides image {
+  width: 800px;
+  height: 520px;
+} */
+
 .icon-left a:hover {
   color: rgb(13, 13, 13);
+  font-size: 30px;
+  font-weight: 900;
+  cursor: pointer;
+  opacity: 1;
 }
 .icon-right a:hover {
   color: #080808;
+  font-size: 30px;
+  font-weight: 900;
+  cursor: pointer;
+  opacity: 1;
 }
-.icon-left a{
-  color: rgb(246, 241, 241);
+
+a {
+  background-color: transparent;
+  padding-right: 50px;
+  padding-left: 50px;
+  font: size 60px;
+  cursor: pointer;
+  opacity: 0;
 }
-.icon-right a{
-  color: #f9f7f7;
+
+.icon-left a {
+  color: white;
+}
+.icon-right a {
+  color: white;
 }
